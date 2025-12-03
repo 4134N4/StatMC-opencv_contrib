@@ -1,3 +1,11 @@
+# README
+
+This repository is a copy of [OpenCV's **4.10** contrib repository](https://github.com/opencv/opencv_contrib). It includes the changes of Sakai et al., as they are present here: <https://github.com/cg-tuwien/StatMC-opencv_contrib#>. (As such, the below README is from their repository.)
+
+OpenCV 4.10 supports CUDA 12.4+, which might be needed to support newer GPUs. (We used/required CUDA 12.8 for Blackwell architecture support.)
+
+With regards to the above mentioned version changes, all instrucions can be followed.
+
 # A Statistical Approach to Monte Carlo Denoising: OpenCV Denoiser
 
 This repository is a copy of [OpenCV's contrib repository](https://github.com/opencv/opencv_contrib) that includes our implementation of the CUDA denoiser for our research paper ["A Statistical Approach to Monte Carlo Denoising" [Sakai et al. 2024]](https://www.cg.tuwien.ac.at/StatMC).
